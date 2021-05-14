@@ -14,21 +14,21 @@ body {
 }
 
 .navy-blue {
-    background-color: rgba(0,0,128,0);
+    background-color: rgba(0,0,128,1);
 }
 
 .dark-lime-green {
-    background-color: rgba(0,128,0,0);
+    background-color: rgba(0,128,0,1);
 }
 
 .maroon {
-    background-color: rgba(128,0,0,0);
+    background-color: rgba(128,0,0,1);
 }
 
 .tan {
-    background-color: rgba(210,180,140,0);
+    background-color: rgba(210,180,140,1);
 }
 
 .burlywood {
-    background-color: rgba(222,184,135,0);
+    background-color: rgba(222,184,135,1);
 }
