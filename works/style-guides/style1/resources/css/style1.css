@@ -2,11 +2,23 @@ body {
 
 }
 
+.container {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px auto;
+}
+
 /*COLORS*/
 .color-container {
+    width: 100%;
 }
 
 .color-panel {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
 }
 
 .color-detail {
@@ -35,11 +47,12 @@ body {
 
 /*FONTS*/
 .font-container {
-
+    width: 100%;
 }
 
 .font-panel {
-
+    width: 45%;
+    display: inline-block;
 }
 
 .font1 {
@@ -72,7 +85,7 @@ body {
 
 /*TEXTS*/
 .text-container {
-
+    width: 100%;
 }
 
 .text-panel {
