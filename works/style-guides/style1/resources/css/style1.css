@@ -34,6 +34,77 @@ body {
 }
 
 /*FONTS*/
+.font-container {
 
-font-family: 'Abril Fatface', cursive;
-font-family: 'Poppins', sans-serif;
+}
+
+.font-panel {
+
+}
+
+.font1 {
+    font-family: 'Abril Face', cursive;
+}
+
+.font2 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.fallback1 {
+    font-family: curive;
+}
+
+.fallback2 {
+    font-family: sans-serif;
+}
+
+.regular {
+    font-style: normal;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+/*TEXTS*/
+.text-container {
+
+}
+
+.text-panel {
+
+}
+
+h1 {
+    font-family: 'Abril Face', cursive;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+
+
