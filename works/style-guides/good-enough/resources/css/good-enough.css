@@ -1,0 +1,66 @@
+/*USEFUL SHIT*/
+/*COMMON MEDIA AUTOSIZE STYLE*/
+/*
+    .container {
+  width: 50%;
+  height: 200px;
+  overflow: hidden;
+}
+ 
+.container img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+    OR
+
+    .container img {
+  width: auto;
+  max-height: 100%;
+  display: block;
+}
+*/
+/*COMMON BG STYLE*/
+/*
+    body {
+  background-image: url('#');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+*/
+/*MEDIA QUERY*/
+/*
+    @media only screen and (max-width: 480px) {
+  body {
+    font-size: 12px;
+  }
+}
+
+    OR
+
+    @media only screen and (min-width: 320px) and (max-width: 480px) {
+   ruleset for 320px - 480px
+}
+    OR
+    @media only screen and (min-resolution: 300dpi) {
+     CSS for high resolution screens 
+}
+    OR
+    @media only screen and (min-width: 480px), (orientation: landscape) {
+     CSS ruleset 
+}
+    AND
+    @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .page-title, .page-description {
+  float: left;
+    width: 20em;
+    }
+ 
+    .page-description {
+        text-align: left;
+    }
+}
+
+*/

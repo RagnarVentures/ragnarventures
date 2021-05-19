@@ -1,26 +1,3 @@
-/*USEFUL SHIT*/
-/*COMMON MEDIA AUTOSIZE STYLE*/
-/*
-    .container {
-  width: 50%;
-  height: 200px;
-  overflow: hidden;
-}
- 
-.container img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-
-    OR
-
-    .container img {
-  width: auto;
-  max-height: 100%;
-  display: block;
-}
-*/
 body {
 
 }
