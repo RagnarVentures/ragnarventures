@@ -1,5 +1,61 @@
-﻿body
-{
+﻿/*GRIDCEPTION*/
+
+/*RESET*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*FULL SCREEN*/
+html {
+    height: 100%;
+    color: white;
+}
+
+body {
+    min-height: 100%;
+}
+
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    border: 2px solid red;
+    display: grid;
+    grid-Template-columns: 1fr 1fr 1fr;
+    grid-Template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+/*WORK IN PROGRESS VISIBILITY HELPER*/
+/*/a {
+    color: white;
+}
+
+div {
+    background-color: blue;
+}
+
+.nav {
+    background-color: red;
+}
+*/
+
+
+@media screen and (max-width: 480px) {
+    .nav {
+        grid-row: 1;
+    }
+
+    .container {
+        display: grid;
+        grid-Template-columns: 1fr;
+        grid-Template-rows: auto;
+        grid-gap: 10px;
+    }
 }
 
 /*GRIDCEPTION ORIGINAL
