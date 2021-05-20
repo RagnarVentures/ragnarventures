@@ -1,3 +1,55 @@
 ﻿body
 {
 }
+
+/*GRIDCEPTION ORIGINAL
+
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+
+    html {
+        height: 100%;
+    }
+
+    body {
+        min-height: 100%;
+    }
+
+    div {
+        background-color: blue;
+    }
+
+    .nav {
+        background-color: red;
+    }
+
+    .container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100vw;
+        border: 1px solid red;
+        display: grid;
+        grid-Template-columns: 1fr 1fr 1fr;
+        grid-Template-rows: 1fr 1fr 1fr;
+        grid-gap: 3px;
+    }
+
+    @media screen and (max-width: 480px) {
+        .nav {
+            grid-row: 1;
+        }
+
+        .container {
+            display: grid;
+            grid-Template-columns: 1fr;
+            grid-Template-rows: auto;
+            rid-gap: 3px;
+        }
+    }
+
+*/
