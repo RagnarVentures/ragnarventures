@@ -1,0 +1,40 @@
+/*GRIDCEPTION*/
+/*RESET*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/*FULL SCREEN*/
+html {
+    height: 100%;
+}
+body {
+    min-height: 100%;
+}
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    border: 2px solid red;
+    display: grid;
+    grid-Template-columns: 1fr 1fr 1fr;
+    grid-Template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    text-align: center;
+}
+@media screen and (max-width: 480px) {
+    /*probably don't need this one...*/
+    .nav {
+        grid-row: 1;
+    }
+    /*this might be enough due to inheritance?*/
+    .container {
+        display: grid;
+        grid-Template-columns: 1fr;
+        grid-Template-rows: auto;
+        grid-gap: 10px;
+    }
+}
