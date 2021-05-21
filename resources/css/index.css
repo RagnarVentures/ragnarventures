@@ -1,12 +1,10 @@
 ﻿/*GRIDCEPTION*/
-
 /*RESET*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
 /*FULL SCREEN*/
 html {
     height: 100%;
@@ -26,85 +24,37 @@ body {
     display: grid;
     grid-Template-columns: 1fr 1fr 1fr;
     grid-Template-rows: 1fr 1fr 1fr;
-    grid-gap: 10px;
+    grid-gap: 2px; /*keep gap small so the images don't need to become too narrow on tablets*/
+    text-align: center;
 }
-
-/*WORK IN PROGRESS VISIBILITY HELPER*/
-/*/a {
-    color: white;
-}
-
-div {
-    background-color: blue;
-}
-
-.nav {
-    background-color: red;
-}
-*/
-
 
 @media screen and (max-width: 480px) {
+    /*probably don't need this one...*/
     .nav {
         grid-row: 1;
     }
-
+    /*this might be enough due to inheritance?*/
     .container {
         display: grid;
         grid-Template-columns: 1fr;
         grid-Template-rows: auto;
-        grid-gap: 10px;
+        grid-gap: 2px;
     }
 }
+/*CONTENT*/
+/*THIS IS GOLD! DON'T TOUCH*/
+.grid-panel {
+    overflow: hidden;
+    /*helper*/
+    /*border: 1px solid black;
+    border-radius: 5%;*/
+}
 
-/*GRIDCEPTION ORIGINAL
-
-    * {
-        box-sizing: border-box;
-        padding: 0;
-        margin: 0;
+    .grid-panel img {
+        max-width: 100%;
+        min-width: auto;
+        max-height: 100%;
+        min-height: auto;
+        display: block;
+        margin: auto; /*makes shit centered*/
     }
-
-    html {
-        height: 100%;
-    }
-
-    body {
-        min-height: 100%;
-    }
-
-    div {
-        background-color: blue;
-    }
-
-    .nav {
-        background-color: red;
-    }
-
-    .container {
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 100vh;
-        width: 100vw;
-        border: 1px solid red;
-        display: grid;
-        grid-Template-columns: 1fr 1fr 1fr;
-        grid-Template-rows: 1fr 1fr 1fr;
-        grid-gap: 3px;
-    }
-
-    @media screen and (max-width: 480px) {
-        .nav {
-            grid-row: 1;
-        }
-
-        .container {
-            display: grid;
-            grid-Template-columns: 1fr;
-            grid-Template-rows: auto;
-            rid-gap: 3px;
-        }
-    }
-
-*/
