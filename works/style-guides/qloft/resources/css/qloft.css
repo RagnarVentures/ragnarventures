@@ -1,116 +1,14 @@
 body {
+    box-sizing: border-box;
 }
 
-.container {
-    border: 2px solid black;
-    padding: 10px;
-    margin: 10px auto;
-}
-
-/*COLORS*/
-.color-container {
-    width: 100%;
-}
-
-.color-panel {
-    display: inline-block;
-    width: 32%;
-    text-align: center;
-    margin: 20px auto;
-    min-height: 100px;
-}
-
-.color-detail {
-}
-
-.navy-blue {
-    background-color: rgba(0,0,128,1);
-}
-
-.dark-lime-green {
-    background-color: rgba(0,128,0,1);
-}
-
-.maroon {
-    background-color: rgba(128,0,0,1);
-}
-
-.tan {
-    background-color: rgba(210,180,140,1);
-}
-
-.burlywood {
-    background-color: rgba(222,184,135,1);
-}
-
-/*FONTS*/
-.font-container {
-    width: 100%;
-}
-
-.font-panel {
-    width: 45%;
-    display: inline-block;
-}
-
-.font1 {
-    font-family: 'Abril Fatface', cursive;
-}
-
-.font2 {
-    font-family: 'Poppins', sans-serif;
-}
-
-.fallback1 {
-    font-family: curive;
-}
-
-.fallback2 {
-    font-family: sans-serif;
-}
-
-.regular {
-    font-style: normal;
-}
-
-.bold {
-    font-weight: bold;
-}
-
-.italic {
-    font-style: italic;
-}
-
-/*TEXTS*/
-.text-container {
-    width: 100%;
-}
-
-.text-panel {
-}
-
-h1 {
-    font-family: 'Abril Fatface', cursive;
-    font-weight: 700;
-    font-size: 26px;
-}
-
-h2 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    font-size: 20px;
-}
-
-h3 {
-    font-family: 'Poppins', sans-serif;
-    font-style: italic;
-    font-weight: 500;
-    font-size: 18px;
-}
-
-p {
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
+.hero {
+    background-image: url("../image/sg1.jpg");
+    padding-top: 100px;
+    padding-right: 12px;
+    padding-bottom: 0px;
+    padding-left: 12px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
 }
