@@ -4,16 +4,97 @@
     margin: 0;
 }
 
+/*font-family: 'Open Sans', sans-serif;*/
+
+html {
+    height: 100%;
+}
+
 body {
+    min-height: 100%;
 }
 
 .hero {
-    background-image: url("../image/sg1.jpg");
-    padding-top: 100px;
-    padding-right: 12px;
-    padding-bottom: 0px;
-    padding-left: 12px;
-    position: relative;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/sg1.jpg); /*MAGIC bg img with gradient overlay*/
+    background-repeat: no-repeat;
+    background-position: center center;
     background-size: cover;
-    background-position: center;
+    height: 100vh;
+    color: #e2e2e2;
+    display: flex;
+    flex-direction: column;
+}
+
+.hheader {
+    position: relative;
+    margin: auto;
+    padding-top: 18vh;
+    padding-bottom: 20vh;
+    width: 100%;
+    text-align: center;
+    /*copied part*/
+    letter-spacing: 2px;
+}
+
+.hheader h1 {
+    font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700 !important;
+    font-size: 62px !important;
+    line-height: 1.1em !important;
+}
+
+.hheader h4 {
+    margin-top: 16px;
+    font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 100;
+    color: #e2e2e2;
+    line-height: 1.6em;
+    text-transform: uppercase;
+}
+
+.hheader button {
+    margin-top: 23px;
+    color: #ffffff;
+    border-width: 2px;
+    border-color: #E1A134;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+    text-transform: uppercase;
+    background-color: rgba(0,0,0,0);
+    padding-top: 10px;
+    padding-right: 32px;
+    padding-bottom: 10px;
+    padding-left: 32px;
+    /*fixing shit*/
+    line-height: 1.7em;
+    border-style: solid;
+    transition: color 300ms ease 0ms,background-color 300ms ease 0ms,border 300ms ease 0ms,border-radius 300ms ease 0ms,letter-spacing 300ms ease 0ms;
+}
+
+.hheader button:hover {
+    cursor: pointer;
+    color: #fffffe;
+    border-color: #e1a135;
+    background-image: initial;
+    background-color: #E1A134;
+}
+
+.hcontainer {
+    display: flex;
+    flex-flow: row wrap;
+    position: relative;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: 10vh;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.hpanel {
+    display: flex;
+    flex-flow: row wrap;
 }
