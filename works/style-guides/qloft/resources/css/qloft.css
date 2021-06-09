@@ -38,9 +38,9 @@ body {
 
 .hheader h1 {
     font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
-    font-weight: 700 !important;
-    font-size: 62px !important;
-    line-height: 1.1em !important;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 1.1em;
 }
 
 .hheader h4 {
@@ -97,4 +97,48 @@ body {
 .hpanel {
     display: flex;
     flex-flow: row wrap;
+}
+
+.hicon {
+    padding: 10px;
+}
+
+.hdesc {
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+    max-width: 200px;
+}
+
+.hdesc h3 {
+    padding-bottom: 12px;
+    font-weight: 700;
+    font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+    line-height: 1.3em;
+    word-wrap: break-word;
+}
+
+/* Rules for sizing the icon. */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark { color: #E1A134; }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+/*BOOKING ENGINE*/
+.book {
+    width: 100%;
+    display: flex;
+}
+
+.booking {
+    position: relative;
+    margin: auto;
 }
