@@ -117,7 +117,7 @@ body {
     line-height: 1.3em;
     word-wrap: break-word;
 }
-
+/*GOOGLE ICONS */
 /* Rules for sizing the icon. */
 .material-icons.md-18 { font-size: 18px; }
 .material-icons.md-24 { font-size: 24px; }
@@ -132,7 +132,7 @@ body {
 .material-icons.md-light { color: rgba(255, 255, 255, 1); }
 .material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
 
-/*BOOKING ENGINE*/
+/* BOOKING ENGINE */
 .book {
     width: 100%;
     display: flex;
@@ -141,4 +141,38 @@ body {
 .booking {
     position: relative;
     margin: auto;
+}
+
+/* GALLERY *//* rooms and hotels */
+.gallery {
+    padding-top: 57px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    min-width: 1120px;
+    justify-content: center;
+}
+
+.galpan {
+
+}
+
+.gold {
+    color: #E1A134;
+}
+
+h2 {
+    color: #333;
+    font-size: 70px;
+    line-height: 1.2em;
+    font-weight: 700;
+    font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+}
+
+h4 {
+    color: #9a9ca8;
+    font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    text-transform: uppercase;
 }
