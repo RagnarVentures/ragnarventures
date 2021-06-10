@@ -149,16 +149,18 @@ body {
     position: relative;
     overflow: hidden;
     display: flex;
-    min-width: 1120px;
     justify-content: center;
 }
 
 .galpan {
-
+    min-width: 1120px;
+    max-width: 1120px;
+    padding-bottom: 20px;
 }
 
 .gold {
     color: #E1A134;
+    font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
 }
 
 h2 {
@@ -167,12 +169,55 @@ h2 {
     line-height: 1.2em;
     font-weight: 700;
     font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+    padding-top: 30px;
 }
 
 h4 {
     color: #9a9ca8;
     font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
     font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 3px;
     line-height: 1.8em;
     text-transform: uppercase;
+    padding-top: 4px;
+    padding-bottom: 10px;
+}
+
+/* ROOMS */
+
+.gal {
+    display: flex;
+    flex-flow: row wrap;
+    position: relative;
+    justify-content: center;
+}
+
+.roompan {
+    min-width: 1120px;
+    max-width: 1120px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.room {
+    width: 30.3333%;
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+    background-image: url(../images/Superior-Queen-With-Balcony.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 200px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    max-width: 450px;
+    transition: 0.5s all ease;
+}
+
+.room:hover {
+    transform: scale(1.05);
+    cursor: pointer;
 }
