@@ -209,7 +209,7 @@ h4 {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding-top: 200px;
+    padding-top: 125px;
     padding-right: 25px;
     padding-bottom: 25px;
     padding-left: 25px;
@@ -220,4 +220,45 @@ h4 {
 .room:hover {
     transform: scale(1.05);
     cursor: pointer;
+}
+
+.roomdesc {
+    background: rgba(255, 255, 255, 0.7);
+    padding: 16px 21px;
+}
+
+    .roomdesc h5 {
+        font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+        color: #333333;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 1.3em;
+    }
+
+.room {
+    font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+    color: #333333;
+    font-weight: 700;
+    line-height: 1.3em;
+}
+
+/* AMENITIES */
+
+.perks {
+    padding-top: 57px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.perpan {
+    min-width: 1120px;
+    max-width: 1120px;
+    padding-bottom: 20px;
+    background-color: #313752;
+}
+
+.perkpan h2 {
+    color: #fff;
 }
