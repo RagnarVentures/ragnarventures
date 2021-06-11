@@ -242,6 +242,16 @@ h4 {
     line-height: 1.3em;
 }
 
+/* PROMO */
+
+.promo {
+    padding-top: 57px;
+    display: flex;
+    flex-flow: row wrap;
+    position: relative;
+    justify-content: center;
+}
+
 /* AMENITIES */
 
 .perks {
@@ -250,15 +260,45 @@ h4 {
     overflow: hidden;
     display: flex;
     justify-content: center;
+    background-color: #313752;
 }
 
-.perpan {
+.perkpan {
     min-width: 1120px;
     max-width: 1120px;
     padding-bottom: 20px;
     background-color: #313752;
+    color: #fff;
 }
 
-.perkpan h2 {
+.perkhead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.perkhead h2 {
     color: #fff;
+}
+
+.perkhead p {
+    max-width: 450px;
+    padding-top: 10px;
+}
+
+.perkrow {
+    display: flex;
+    flex-flow: row wrap;
+    position: relative;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: 10vh;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.perk {
+    display: flex;
+    flex-flow: row wrap;
 }
