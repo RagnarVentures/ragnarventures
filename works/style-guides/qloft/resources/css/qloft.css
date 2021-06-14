@@ -108,6 +108,7 @@ body {
     flex-flow: column wrap;
     text-align: center;
     max-width: 200px;
+    min-width: 200px;
 }
 
 .hdesc h3 {
