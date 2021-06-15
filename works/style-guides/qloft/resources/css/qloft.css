@@ -1,10 +1,61 @@
+/* RESET */
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-/*font-family: 'Open Sans', sans-serif;*/
+/* HEADER */
+
+header {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    z-index: 2;
+    box-shadow: 0 0 7px rgba(0,0,0,.1) !important;
+    -moz-box-shadow: 0 0 7px rgba(0,0,0,.1) !important;
+    -webkit-box-shadow: 0 0 7px rgba(0,0,0,.1) !important;
+}
+
+nav {
+    width: 1120px;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    cursor: pointer;
+    height: 46px;
+    width: auto;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0px 15px;
+}
+nav ul li a {
+    transition: all 0.3s ease 0s;
+}
+nav ul li a:hover {
+    color: #E1A134;
+}
+nav li, a {
+    font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+/* BODY */
 
 html {
     height: 100%;
@@ -20,9 +71,13 @@ body {
     background-position: center center;
     background-size: cover;
     height: 100vh;
-    color: #e2e2e2;
+    color: #ffffff;
     display: flex;
     flex-direction: column;
+}
+
+.hero p {
+    color: rgba(255,255,255,0.8);
 }
 
 .hheader {
@@ -106,6 +161,8 @@ body {
 .hdesc {
     display: flex;
     flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     max-width: 200px;
     min-width: 200px;
@@ -173,10 +230,15 @@ h2 {
     padding-top: 30px;
 }
 
+.bluebg {
+    padding-top: 0px !important;
+    color: #ffffff !important;
+}
+
 h4 {
     color: #9a9ca8;
     font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 16px;
     letter-spacing: 3px;
     line-height: 1.8em;
@@ -197,9 +259,10 @@ h4 {
 .roompan {
     min-width: 1120px;
     max-width: 1120px;
-    padding-bottom: 20px;
+    padding-bottom: 33px;
     display: flex;
     flex-flow: row wrap;
+    justify-content: center;
 }
 
 .room {
@@ -209,9 +272,9 @@ h4 {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding-top: 125px;
+    padding-top: 185px;
     padding-right: 25px;
-    padding-bottom: 25px;
+    padding-bottom: 5px;
     padding-left: 25px;
     max-width: 450px;
     transition: 0.5s all ease;
@@ -228,9 +291,9 @@ h4 {
 
 .p1 {background-image: url(../images/promo.jpeg);}
 
-.h1 {background-image: url(../images/Q-Loft-Hotel-@-Mackenzie.jpg);}
-.h2 {background-image: url(../images/Q-Loft-Hotel-@-Geylang.jpg);}
-.h3 {background-image: url(../images/Q-Loft-Hotel-@-Bedok.jpg);}
+.ho1 {background-image: url(../images/Q-Loft-Hotel-@-Mackenzie.jpg);}
+.ho2 {background-image: url(../images/Q-Loft-Hotel-@-Geylang.jpg);}
+.ho3 {background-image: url(../images/Q-Loft-Hotel-@-Bedok.jpg);}
 
 .room:hover {
     transform: scale(1.05);
@@ -239,7 +302,7 @@ h4 {
 
 .roomdesc {
     background: rgba(255, 255, 255, 0.7);
-    padding: 16px 21px;
+    padding: 10px 15px;
 }
 
     .roomdesc h5 {
@@ -281,7 +344,7 @@ h4 {
 .perkpan {
     min-width: 1120px;
     max-width: 1120px;
-    padding-bottom: 20px;
+    padding-bottom: 10px 0px;
     background-color: #313752;
     color: #fff;
 }
@@ -306,7 +369,7 @@ h4 {
     flex-flow: row wrap;
     position: relative;
     justify-content: center;
-    margin-top: auto;
+    margin-top: 10vh;
     margin-bottom: 10vh;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -316,4 +379,18 @@ h4 {
 .perk {
     display: flex;
     flex-flow: row wrap;
+    margin: 0px 50px;
+}
+
+/* CONTACT */
+.locrow {
+    display: flex;
+    flex-flow: row wrap;
+    position: relative;
+    justify-content: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
 }
